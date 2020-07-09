@@ -1,12 +1,10 @@
 
-.fishes{
-    border: dotted blue 1px;
-}
+
 
 .fish{
    display: flex;
     margin: 2rem;
-    border: dotted black 1px;
+    border-radius: 5px;
     background-color: rgb(66, 176, 250, .5);
     padding: 2rem;
 }
