@@ -1,0 +1,30 @@
+@import "./fish.css";
+@import "./location.css";
+@import "./quote.css";
+
+
+
+.header{
+    display: flex;
+    margin-left: 3rem;
+}
+
+.title{
+    margin-left: 8rem;
+}
+
+
+.container{
+    display: flex;
+   
+}
+
+.content--left{
+    flex: 3;
+    
+}
+
+.content--right{
+    flex: 1;
+}
+

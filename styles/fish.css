@@ -1,0 +1,23 @@
+
+.fishes{
+    border: dotted blue 1px;
+}
+
+
+
+.fish{
+   display: flex;
+    margin: 2rem;
+    border: dotted black 1px;
+}
+
+.fish__image{
+    height: 10rem;
+}
+
+.fishInfo{
+    align-self: flex-end;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
