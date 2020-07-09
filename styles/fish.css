@@ -3,12 +3,12 @@
     border: dotted blue 1px;
 }
 
-
-
 .fish{
    display: flex;
     margin: 2rem;
     border: dotted black 1px;
+    background-color: rgb(66, 176, 250, .5);
+    padding: 2rem;
 }
 
 .fish__image{
@@ -16,8 +16,9 @@
 }
 
 .fishInfo{
-    align-self: flex-end;
+    align-self: center;
     margin-left: 2rem;
     margin-bottom: 1rem;
+
 }
 

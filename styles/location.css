@@ -1,7 +1,34 @@
+
+.locations{
+    border: green 1px dotted;
+}
+
+
 .location{
     margin: 2rem;
+    display: flex;
+    background-color: rgb(160, 160, 160, .5);
+    padding: 2rem;
+    border-radius: 5px;
+
 }
 
 .location__image{
     height:10rem;
+}
+
+.location__container__right{
+margin-left: 1rem;
+}
+
+.location__name{
+    margin-top: .5rem;
+}
+
+.location__link{
+    margin-top: .5rem;
+}
+
+.location__info{
+    margin-top: 1rem;
 }
