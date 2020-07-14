@@ -1,0 +1,15 @@
+.quotes{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.quote__text{
+    font-size: large;
+    margin-left: 1rem;
+}
+
+.quote__author{
+    text-align: center;
+    margin-top: .5rem;
+}

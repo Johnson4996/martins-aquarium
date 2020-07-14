@@ -1,0 +1,14 @@
+.tips{
+    margin-top: 2rem;
+    padding: .5rem;
+}
+
+.tip__title{
+    margin-left: .5rem;
+    font-size: large;
+   
+}
+
+.tip{
+    margin-bottom: 1rem;
+}
