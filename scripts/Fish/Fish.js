@@ -4,13 +4,15 @@
 
 export const Fish = (fish) => {
     return `
-    <section class="fish_card">
-            <div><img  class="fish__image image--card" src="${fish.image}" /></div>
-            <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.type}</div>
-            <div class="fish__length">${fish.size}</div>
-            <div class="fish__location">${fish.location}</div>
-            <div class="fish__diet">${fish.diet}</div>
-        </section>
+    <section class="fish">
+                <div><img class="fish__image"src=${fish.image} alt="stingray"></div>
+             <div class="fishInfo">
+                <div class="fish__name"><b>Name:</b> ${fish.name}</div>
+                <div class="fish__type"><b>Type:</b>${fish.type}</div>
+                <div class="fish__size"><b>Size:</b>${fish.size}</div>
+                <div class="fish__location"><b>Location:</b>${fish.location}</div>
+                <div class="fish__food"><b>Diet:</b>${fish.diet}</div>
+            </div>
+            </section>
     `
 }
